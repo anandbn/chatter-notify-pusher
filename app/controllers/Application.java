@@ -25,6 +25,7 @@ public class Application extends Controller {
 			HttpResponse response = pusher.trigger("chatter_notify", "new_chatter",jsonMsg);
 	    	System.out.println(String.format("Sent pusher message successfully. Response :%s",response.getString()));	
 	    	System.out.println("");
+	    	renderText("Push notification sent successfully !!!");
 		}
 
 	}
