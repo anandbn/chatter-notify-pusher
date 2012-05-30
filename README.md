@@ -1,10 +1,3 @@
-# Play framework template application
+# Chatter Notify Application with Pusher integration
 
-This is a template for a web application that uses the Play Framework. The sample code is a simple CRUD page that manipulates records for a single model object.    
-
-## Running the application locally
-
-Make sure your play framework install directory is on your path. Then navigate to the application directory and run the app with:
-
-    $play run
-
+This pplication can be used as an endpoint to received notifications from Force.com for Chatter posts/comments and mediates the Push notification that is sent out 
